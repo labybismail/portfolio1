@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+/* style for layout.js */
+.row{
+  font-family: 'Courier New', Courier, monospace;
+}#sidebar{
+  background-color: rgb(252, 248, 248);height: 99vh;
+}#img1{
+  border-radius: 50%;width: 150px;height: 150px;position: absolute;top: 15px;right: 50px;
+}#spanName{
+  top: 160px;right: 46px
+}#spanLink{
+  left: 40px;bottom: 80px;
+}#githubLink,#mailLink,#linkedinLink{
+  border-radius: 50%;width: 40px;height:40px;
+}
