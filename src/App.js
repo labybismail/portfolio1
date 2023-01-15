@@ -2,8 +2,8 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/layout';
 import Home from './components/home';
-import { About } from './components/about';
-
+import Work from './components/work';
+import About from './components/about';
 
 export default function App(){
     return(
@@ -11,9 +11,9 @@ export default function App(){
         <Routes>
             <Route path='/' element={<Layout/>} >
                 <Route index element={<Home/>} />
-                {/* <Route path='About' element={<About/>} /> */}
-                {/* <Route path='Work' element={<Work/>} />
-                <Route path='Contact' element={<Contact/>} /> */}
+                <Route path='About' element={<About/>} />
+                 <Route path='work' element={<Work/>} />
+                {/*<Route path='Contact' element={<Contact/>} /> */}
             </Route>
         </Routes> 
     );

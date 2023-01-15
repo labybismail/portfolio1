@@ -18,19 +18,18 @@ const Layout = () => {
             </ul>
             <span className="d-flex position-absolute" id="spanLink" >
                 <a href="https://github.com/labybismail/portfolio1" target="_blank">
-                    <img src="https://img.icons8.com/fluency/512/github.png" className="m-1" id="githubLink"   alt="" />
+                    <img src="https://img.icons8.com/fluency/512/github.png" className="m-1" id="githubLink"   alt="github" />
                 </a>
                 <a href="mailto:labybismail.dev@gmail.com" target="_blank">
-                    <img src="https://img.icons8.com/fluency/512/google-logo.png" className="m-1" id="mailLink"   alt="" />
+                    <img src="https://img.icons8.com/fluency/512/google-logo.png" className="m-1" id="mailLink"   alt="mail" />
                 </a>
                 <a href="www.linkedin.com/in/labybismail" target="_blank">
-                    <img src="https://img.icons8.com/ios-glyphs/512/linkedin-circled.png" className="m-1" id="linkedinLink"   alt="" />
+                    <img src="https://img.icons8.com/ios-glyphs/512/linkedin-circled.png" className="m-1" id="linkedinLink"   alt="linkedin" />
                 </a>
             </span>
         </div>
-        <div className="col-10" style={{backgroundColor:"rgba(87,36,233,0.88)",height:"100vh"}}>
+        
           <Outlet />
-        </div>
     </div>
 
 </div>
