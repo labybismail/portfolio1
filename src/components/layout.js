@@ -17,13 +17,13 @@ const Layout = () => {
                 <li className="nav-item"><Link to="/contact" className="nav-link">contact</Link></li>
             </ul>
             <span className="d-flex position-absolute" id="spanLink" >
-                <a href="" target="_blank">
+                <a href="https://github.com/labybismail/portfolio1" target="_blank">
                     <img src="https://img.icons8.com/fluency/512/github.png" className="m-1" id="githubLink"   alt="" />
                 </a>
-                <a href="" target="_blank">
+                <a href="mailto:labybismail.dev@gmail.com" target="_blank">
                     <img src="https://img.icons8.com/fluency/512/google-logo.png" className="m-1" id="mailLink"   alt="" />
                 </a>
-                <a href="" target="_blank">
+                <a href="www.linkedin.com/in/labybismail" target="_blank">
                     <img src="https://img.icons8.com/ios-glyphs/512/linkedin-circled.png" className="m-1" id="linkedinLink"   alt="" />
                 </a>
             </span>
