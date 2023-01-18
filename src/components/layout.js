@@ -1,16 +1,17 @@
 import { Outlet, Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
-import githubIcon from './img/github.svg'
-import googleIcon from './img/google.svg'
-import linkedinIcon from './img/linkedin.svg'
+import githubIcon from './img/github.svg';
+import googleIcon from './img/google.svg';
+import linkedinIcon from './img/linkedin.svg';
+import profilPicture from './img/profilPicture1.jpeg';
 export default function Layout(){
   return (
     <div className="container-fluid">
       <div className="row" >
           <div className="col-2" id="sidebar" >
-              <img src="https://img.icons8.com/ios-glyphs/512/linkedin-circled.png" id="img1"  alt="profilPicture" />
-              <span className="position-absolute fs-5 mx-auto" id="spanName" >LABYB ismail</span>
+              <img src={profilPicture} id="img1"  alt="profilPicture" />
+              <span className="position-absolute fs-5 mx-auto " id="spanName" >LABYB ismail</span>
               <ul className="nav nav-pills d-flex flex-column justify-content-center mx-auto fs-5" >
                   <li className="nav-item">
                     <Link to="/"  className="nav-link">home</Link>
@@ -32,7 +33,7 @@ export default function Layout(){
                   <a href="mailto:labybismail.dev@gmail.com">
                     <img src={googleIcon} className="m-1" id="mailLink"   alt="mail" />
                   </a>
-                  <a href="www.linkedin.com/in/labybismail">
+                  <a href="https://www.linkedin.com/in/labybismail">
                     <img src={linkedinIcon} className="m-1" id="linkedinLink"   alt="linkedin" />
                   </a>
               </span>
