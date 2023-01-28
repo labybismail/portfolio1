@@ -11,21 +11,21 @@ export default function Contact(){
     const div4Style={top: "480px"}
     return(
         <>
-        <div className="col-10  position-relative " style={{backgroundColor:"rgb(0,0,20)",height:"100vh"}}>
-            <p class="pStyle fs-5 " style={{top:"235px"}} >labybismail.dev@gmail.com</p>
+        <div className="col-12 col-xl-10  position-relative div1Contact">
+            <p class="pStyle" style={{top:"235px"}} >labybismail.dev@gmail.com</p>
             <div class="col-2 divsStyle " style={div1Style}>
                 <img src={googleIcon} style={styleImg}  alt="mail" />
             </div>
             
-            <p class="pStyle fs-5 " style={{top:"324px"}}>https://github.com/labybismail/portfolio1</p>
+            <p class="pStyle" style={{top:"324px"}}>https://github.com/labybismail/portfolio1</p>
             <div class="col-2 divsStyle" style={div2Style}>
                 <img src={githubIcon}  style={styleImg}  alt="github" />
             </div>
-            <p class="pStyle fs-5 " style={{top:"415px"}}>https://www.linkedin.com/in/labybismail</p>
+            <p class="pStyle" style={{top:"415px"}}>https://www.linkedin.com/in/labybismail</p>
             <div class="col-2 divsStyle" style={div3Style}>
                 <img src={linkedinIcon}  style={styleImg}  alt="linkedin" />
             </div>
-            <p class="pStyle fs-5 " style={{top:"495px"}}>+212 681 33 23 02</p>
+            <p class="pStyle" style={{top:"495px"}}>+212 681 33 23 02</p>
             <div class="col-2 divsStyle" style={div4Style}>
                 <img src={phoneIcon}  style={styleImg}  alt="phone" />
             </div>

@@ -5,8 +5,15 @@
 #spanLink{left:40px;bottom:80px;position: absolute;}
 #githubLink,#mailLink,#linkedinLink{border-radius:50%;width:40px;height:40px;}
 .divsStyle{position:absolute;display:flex;justify-content:center;align-items:center;width:60px;height:60px;border-radius:50%;background-color:aliceblue;right:5px;}
-.pStyle{position:absolute;color:whitesmoke;right:80px;}
+.pStyle{position:absolute;color:whitesmoke;right:80px;font-size: 20px;}
 .cardsStyle{width:380px;height:200px;background-size:cover;border-radius:12px;position:relative}
+.div1HomeStyle{background-color:rgba(87,36,233,0.88);height:100vh;}
+.div2HomeStyle{height:100%;display:flex; align-items:center;}
+.pHomeStyle{text-align:justify;color:white;margin:auto;}
+.div1About{background-color:rgb(0,0,20);height:100vh;}
+.h2About{margin-top:80px}
+.pAbout{text-align:justify;margin-top:70px;font-size:24px;}
+.div1Contact{background-color:rgb(0,0,20);height:100vh}
 @media screen and (max-width:1200px) {
     #sidebar{
         height: 20vh;
@@ -36,5 +43,21 @@
     }.pagesDiv{
         margin: auto;
 
+    }.div1HomeStyle{
+        height:80vh;
+        margin-bottom:0;
+    }
+    .div1About{
+        height: 80vh;
+        font-size: 22px;
+    }.pAbout{
+        margin-top: 0;
+    }.h2About{
+        margin-top: 15px;
+    }
+    .div1Contact{
+        height: 80vh;
+    }.pStyle{
+        font-size: 15px;
     }
 }

@@ -29,13 +29,13 @@ export default function Layout(){
               </ul>
               </div>
               <div className="col-lg-3 d-flex " id="spanLink" >
-                  <a href="https://github.com/labybismail/portfolio1" target="_blank">
+                  <a href="https://github.com/labybismail/portfolio1" target="_blank" rel="noreferrer">
                     <img src={githubIcon} className="m-1" id="githubLink"   alt="github" />
                   </a>
-                  <a href="mailto:labybismail.dev@gmail.com" target="_blank">
+                  <a href="mailto:labybismail.dev@gmail.com" target="_blank" rel="noreferrer">
                     <img src={googleIcon} className="m-1" id="mailLink"   alt="mail" />
                   </a>
-                  <a href="https://www.linkedin.com/in/labybismail" target="_blank">
+                  <a href="https://www.linkedin.com/in/labybismail" target="_blank" rel="noreferrer">
                     <img src={linkedinIcon} className="m-1" id="linkedinLink"   alt="linkedin" />
                   </a>
               </div>
