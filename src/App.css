@@ -1,9 +1,72 @@
 .row{font-family:'CourierNew',Courier,monospace;}
 #sidebar{background-color:rgb(252,248,248);height:100vh;display:flex;justify-content:center;flex-direction:column;position:relative;border: 2px dotted black}
 #img1{border-radius:50%;width:125px;height:125px;position:absolute;top:15px;right:56px;border: 1px dotted black;}
-#spanName{top:160px;right:46px}
-#spanLink{left:40px;bottom:80px;}
+#divName{top:160px;right:46px}
+#spanLink{left:40px;bottom:80px;position: absolute;}
 #githubLink,#mailLink,#linkedinLink{border-radius:50%;width:40px;height:40px;}
-.divsStyle{position:absolute;display:flex;justify-content:center;align-items:center;width:60px;height:60px;border-radius:50%;background-color:aliceblue;right:5px;}
-.pStyle{position:absolute;color:whitesmoke;right:80px;}
-.cardsStyle{width:380px;height:200px;background-size:cover;border-radius:12px;position:relative}
+.pStyle{position:absolute;color:whitesmoke;right:80px;font-size: 20px;}
+.cardsStyle{width:380px;height:200px;background-size:cover;border-radius:12px;position:relative;font-size: 18px;}
+.div1HomeStyle{background-color:rgba(87,36,233,0.88);height:100vh;}
+.div2HomeStyle{height:100%;display:flex; align-items:center;}
+.pHomeStyle{text-align:justify;color:white;margin:auto;}
+.div1About{background-color:rgb(0,0,20);height:100vh;}
+.h2About{margin-top:80px}
+.pAbout{text-align:justify;margin-top:70px;font-size:24px;}
+.div1Contact{background-color:rgb(0,0,20);height:100vh}
+.workDiv{background-color:rgb(0,0,20);height:100vh;padding-top:40px;}
+@media screen and (max-width:1200px) {
+    #sidebar{
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #img1{
+        position: static;
+        float: left;
+        width:100px;
+        height:100px;
+        margin: auto;
+    }#divName{
+        display: none;
+    }#spanLink{
+        position: static;
+        margin: auto;
+
+    }
+    .nav{
+        display: inline;
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+    }.pagesDiv{
+        margin: auto;
+
+    }.div1HomeStyle{
+        height:80vh;
+        margin-bottom:0;
+    }
+    .div1About{
+        height: 80vh;
+        font-size: 22px;
+    }.pAbout{
+        margin-top: 0;
+    }.h2About{
+        margin-top: 15px;
+    }
+    .div1Contact{
+        height: 80vh;
+    }
+    .workDiv{
+        height: 80vh;
+    }
+    .cardsStyle{
+        width: auto;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }.cardsStyle p{
+        font-size: 14px;
+    }
+}

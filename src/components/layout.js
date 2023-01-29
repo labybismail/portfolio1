@@ -9,10 +9,11 @@ export default function Layout(){
   return (
     <div className="container-fluid">
       <div className="row" >
-          <div className="col-2" id="sidebar" >
+          <div className="col-xl-2 col-md-12" id="sidebar" >
               <img src={profilPicture} id="img1"  alt="profilPicture" />
-              <span className="position-absolute fs-5 mx-auto " id="spanName" >LABYB ismail</span>
-              <ul className="nav nav-pills d-flex flex-column justify-content-center mx-auto fs-5" >
+              <div className="position-absolute fs-5 mx-auto " id="divName" >LABYB ismail</div>
+              <div className="col-lg-6 pagesDiv mx-auto">
+                <ul className="nav nav-pills d-flex  justify-content-center  fs-5" >
                   <li className="nav-item">
                     <Link to="/"  className="nav-link">home</Link>
                     </li>
@@ -26,17 +27,18 @@ export default function Layout(){
                     <Link to="/contact" className="nav-link">contact</Link>
                     </li>
               </ul>
-              <span className="d-flex position-absolute" id="spanLink" >
-                  <a href="https://github.com/labybismail/portfolio1">
+              </div>
+              <div className="col-lg-3 d-flex " id="spanLink" >
+                  <a href="https://github.com/labybismail/portfolio1" target="_blank" rel="noreferrer">
                     <img src={githubIcon} className="m-1" id="githubLink"   alt="github" />
                   </a>
-                  <a href="mailto:labybismail.dev@gmail.com">
+                  <a href="mailto:labybismail.dev@gmail.com" target="_blank" rel="noreferrer">
                     <img src={googleIcon} className="m-1" id="mailLink"   alt="mail" />
                   </a>
-                  <a href="https://www.linkedin.com/in/labybismail">
+                  <a href="https://www.linkedin.com/in/labybismail" target="_blank" rel="noreferrer">
                     <img src={linkedinIcon} className="m-1" id="linkedinLink"   alt="linkedin" />
                   </a>
-              </span>
+              </div>
           </div>
           <Outlet />
       </div>
