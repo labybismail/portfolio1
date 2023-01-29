@@ -10,8 +10,8 @@ export default function Work(){
     const card4Style = {backgroundImage: `url(${card4Img})`};
     const pStyle={bottom:"0",right:"5px",position:"absolute",boxShadow:"2px 2px 10px gold",borderRadius:"9px",backgroundColor:"white",color:'black'}
     return(
-        <div className="col-xl-10 col-12 workDiv" style={{backgroundColor:"rgb(0,0,20)",height:"100vh"}}>
-            <div className="col-12 d-flex " style={{marginTop: "70px"}}>
+        <div className="col-xl-10 col-12 workDiv">
+            <div className="col-12 d-flex mb-3 ">
                 <div className="col-4 mx-auto " >
                     <a href="https://hard-hitting-appeal.000webhostapp.com" >
                         <div className="m-2 cardsStyle " style={card1Style}>
@@ -27,15 +27,15 @@ export default function Work(){
                     </a>
                 </div>
             </div>
-            <div className="col-12 d-flex">
-                <div className="col-4 mx-auto " style={{height: "30%",marginTop: "50px"}} >
+            <div className="col-12 d-flex mb-0">
+                <div className="col-4 mx-auto "  >
                     <a href="https://labybportfolio.netlify.app" >
                         <div className="m-2 cardsStyle" style={card3Style}>
                             <p className="" style={pStyle}>portfolio</p>
                         </div>
                     </a>
                 </div>
-                <div className="col-4 mx-auto " style={{height: "30%",marginTop: "50px"}} >
+                <div className="col-4 mx-auto "  >
                     <a href="https://game1-rock.netlify.app" >
                         <div className="m-2 cardsStyle" style={card4Style}>
                             <p className="" style={pStyle}>rock-paper-scissor</p>

@@ -13,6 +13,7 @@
 .h2About{margin-top:80px}
 .pAbout{text-align:justify;margin-top:70px;font-size:24px;}
 .div1Contact{background-color:rgb(0,0,20);height:100vh}
+.workDiv{background-color:rgb(0,0,20);height:100vh;padding-top:40px;}
 @media screen and (max-width:1200px) {
     #sidebar{
         height: 20vh;
