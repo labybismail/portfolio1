@@ -5,7 +5,7 @@
 #spanLink{left:40px;bottom:80px;position: absolute;}
 #githubLink,#mailLink,#linkedinLink{border-radius:50%;width:40px;height:40px;}
 .pStyle{position:absolute;color:whitesmoke;right:80px;font-size: 20px;}
-.cardsStyle{width:380px;height:200px;background-size:cover;border-radius:12px;position:relative}
+.cardsStyle{width:380px;height:200px;background-size:cover;border-radius:12px;position:relative;font-size: 18px;}
 .div1HomeStyle{background-color:rgba(87,36,233,0.88);height:100vh;}
 .div2HomeStyle{height:100%;display:flex; align-items:center;}
 .pHomeStyle{text-align:justify;color:white;margin:auto;}
@@ -56,5 +56,16 @@
     }
     .div1Contact{
         height: 80vh;
+    }
+    .workDiv{
+        height: 80vh;
+    }
+    .cardsStyle{
+        width: auto;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }.cardsStyle p{
+        font-size: 14px;
     }
 }
